@@ -1,0 +1,38 @@
+.show {
+  display: flex;
+  flex-direction: column;
+  gap : 5px;
+  justify-items: center;
+  
+}
+.container {
+  display: inline-flex;
+  padding: 10px;
+  flex-direction: row;
+  gap: 50px;
+  width : 500px;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* background-color:rgb(72, 187, 253); */
+}
+img {
+  height: 20vh;
+  
+}
+span {
+  font-size: large;
+}
+button {
+  width: fit-content;
+  padding: 2px;
+  margin-top: 10px;
+  font-size: large;
+  background-color: lightblue;
+  cursor: pointer;
+}
+@media (min-width: 700px) {
+  #root {
+    margin-left: 25%;
+  }
+}
