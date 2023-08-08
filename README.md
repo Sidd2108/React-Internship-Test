@@ -1,8 +1,10 @@
-# React + Vite
+# React Internship Test
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Implemented all the requirements stated in the Test Document.
 
-Currently, two official plugins are available:
+## Steps to Run this project: 
+1. Clone this repo
+2. Open cloned folder in terminal
+3. Run `npm run dev` command and you are good to go.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Thank You.
