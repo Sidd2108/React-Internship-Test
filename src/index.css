@@ -40,15 +40,23 @@ button {
   background-color: lightblue;
   cursor: pointer;
 }
-/* @media (min-width: 700px) {
-  .main{
-    margin-left: 25%;
-  }
-} */
 
+label {
+  font-size: large;
+  font-weight: 600;
+}
 .individual-show {
   width: 75%;
   display: flex;
   flex-direction: column;
   gap : 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: max-content;
+  height: 20px;
 }
