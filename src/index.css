@@ -1,8 +1,15 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .show {
   display: flex;
   flex-direction: column;
   gap : 5px;
   justify-items: center;
+  text-decoration: none;
   
 }
 .container {
@@ -13,6 +20,7 @@
   width : 500px;
   align-items: center;
   justify-content: space-between;
+  color: black;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   /* background-color:rgb(72, 187, 253); */
 }
@@ -20,8 +28,9 @@ img {
   height: 20vh;
   
 }
-span {
+span, h3 {
   font-size: large;
+  text-decoration: underline;
 }
 button {
   width: fit-content;
@@ -31,8 +40,15 @@ button {
   background-color: lightblue;
   cursor: pointer;
 }
-@media (min-width: 700px) {
-  #root {
+/* @media (min-width: 700px) {
+  .main{
     margin-left: 25%;
   }
+} */
+
+.individual-show {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  gap : 10px;
 }
