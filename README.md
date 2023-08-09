@@ -5,6 +5,6 @@ Implemented all the requirements stated in [Test Document.](https://docs.google.
 ## Steps to Run this project: 
 1. Clone this repo
 2. Open cloned folder in terminal
-3. Run `npm run dev` command and you are good to go.
+3. Run `npm install` and then `npm run dev` command in terminal and you are good to go.
 
 Thank You.
